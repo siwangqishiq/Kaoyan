@@ -1,0 +1,19 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+    android:background="#000000">
+	<Gallery
+	    android:layout_centerVertical="true"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:id="@+id/gallery" 
+	    />    
+    
+    <Button
+        android:layout_below="@id/gallery"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/setBackgroundBtn"
+        android:layout_centerHorizontal="true"
+        android:text="@string/setbackground_btn" />
+</RelativeLayout>

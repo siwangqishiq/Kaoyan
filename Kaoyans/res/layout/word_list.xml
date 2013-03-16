@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/list_ad_main"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+    
+ <RelativeLayout 
+    android:id="@+id/listAdr"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+    </RelativeLayout>
+
+<RelativeLayout 
+    android:layout_below="@id/listAdr"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+   	android:background="@drawable/wordlistbg"
+    >
+    <ListView 
+        android:id="@id/android:list" 
+       	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content" 
+    	android:drawSelectorOnTop="false"
+    	android:scrollbars="vertical" />
+</RelativeLayout>
+</RelativeLayout>

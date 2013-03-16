@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">考研英语100句</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="remebertThis">记住此句</string>
+    <string name="hiddenTranslate">隐藏翻译</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">考研英语100句</string>
+    <string name="setbackground_btn">设为背景</string>
+    <string name="drawer_title">记录新单词</string>
+	<string name="text1a">26. By the middle of the twentieth century, painters and sculptors in the United States had begun to exert a great worldwide influence over art. </string>
+	<string name="text1b">26.到了二十一世纪中叶，美国画家和雕塑家开始在世界范围内对艺术产生重大影响。</string>
+	<string name="text2a">28. Elizabeth Blackwell, the first woman medical doctor in the United States, founded the New York Infirmary, an institution that has always had a completely female medical staff. </string>
+	<string name="text2b">28. Elizabeth Blackwell，美国第一个女医生，创建了员工一直为女性纽约诊所。</string>
+	<string name="addnewword">新英文单词</string>
+	<string name="addnewch">新单词释义</string>
+	<string name="doAdd">录入</string>
+	<string name="doClear">清空</string>
+	<string name="gotoWordList">查看记录单词</string>
+	<string name="doTest">随机默写测试</string>
+	<string name="testText">请写出以下意思的单词:\n你好 世界</string>
+	<string name="testButtonText">提交</string>
+	
+	<string name="adIdTest">56OJz1H4uMk4x9TNwR</string>
+	<string name="adId">56OJz1H4uMk4x9TNwR</string>
+</resources>

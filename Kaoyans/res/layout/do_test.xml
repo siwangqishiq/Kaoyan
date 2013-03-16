@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+    
+ <RelativeLayout 
+    android:id="@+id/doTestAdContainer"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+    </RelativeLayout>
+
+<RelativeLayout
+    android:layout_below="@id/doTestAdContainer"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+   	android:background="@drawable/dotestbg"
+    >
+     <TextView
+        android:textColor="#000000"
+        android:id="@+id/testMainText"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/text_style"
+        android:padding="5dp"
+        android:text="@string/testText"
+        android:textSize="23dp" />
+     	
+     <EditText
+         	 	android:textSize="23dp"
+         	    android:hint="@string/addnewword"
+         	    android:id="@+id/testWordContent"
+         	    android:layout_height="wrap_content"
+         	    android:layout_width="fill_parent"
+         	    android:layout_below="@id/testMainText"
+         	    android:layout_alignParentLeft="true"
+         	    android:layout_margin="12dp"
+         	    />
+      <Button
+        android:background="@drawable/button_style"
+        android:layout_below="@id/testWordContent"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textColor="#000000"
+        android:id="@+id/testSubmitBtn"
+        android:text="@string/testButtonText" />
+</RelativeLayout>
+</RelativeLayout>

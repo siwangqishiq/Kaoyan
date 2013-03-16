@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_width="fill_parent"
+     android:layout_height="fill_parent"
+     android:orientation="vertical"
+     android:paddingBottom="1dip"
+     android:paddingLeft="5dip"
+     android:paddingRight="5dip"
+     android:paddingTop="3dip" >    
+     <TextView
+         android:id="@+id/wordEnglish"
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:layout_alignParentTop="true"
+         android:paddingLeft="3dip"
+         android:singleLine="false"
+         android:text="test"
+         android:textSize="12pt" />
+
+     <TextView
+         android:layout_below="@id/wordEnglish"
+         android:id="@+id/wordChinese"
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:paddingLeft="3dip"
+         android:text="1.测试\n2.检测\n3.监测"
+         android:textSize="10pt" />
+ </RelativeLayout>
